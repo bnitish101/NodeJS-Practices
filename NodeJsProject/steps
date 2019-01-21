@@ -1,0 +1,68 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+PS C:\xampp\htdocs\myprojects\NodeJS\NodeJsProject> npm install npm
+npm WARN saveError ENOENT: no such file or directory, open 'C:\xampp\htdocs\myprojects\NodeJS\package.json'
+npm WARN enoent ENOENT: no such file or directory, open 'C:\xampp\htdocs\myprojects\NodeJS\package.json'
+npm WARN NodeJS No description
+npm WARN NodeJS No repository field.
+npm WARN NodeJS No README data
+npm WARN NodeJS No license field.
+
++ npm@6.4.1
+updated 1 package and audited 5307 packages in 290.472s
+found 0 vulnerabilities
+
+PS C:\xampp\htdocs\myprojects\NodeJS\NodeJsProject> npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help json` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+PS C:\xampp\htdocs\myprojects\NodeJS\NodeJsProject> npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help json` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (nodejsproject) package.json
+version: (1.0.0) init
+Invalid version: "init"
+version: (1.0.0) package
+Invalid version: "package "
+version: (1.0.0) express
+Invalid version: "express"
+version: (1.0.0)
+description:
+entry point: (index.js)
+test command:
+git repository:
+keywords:
+author:
+license: (ISC)
+About to write to C:\xampp\htdocs\myprojects\NodeJS\NodeJsProject\package.json:
+
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
+
+
+Is this OK? (yes)
+PS C:\xampp\htdocs\myprojects\NodeJS\NodeJsProject> npm install express --save
+[..................] | fetchMetadata: sill resolveWithNewModule inherits@2.0.3 checking installable status
